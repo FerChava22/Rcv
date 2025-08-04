@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Clientes - Servicios Mecánicos RCV</title>
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+<body>
+  <header>
+    <h1>Clientes</h1>
+    <nav><a href="admin.html">Volver al Panel</a></nav>
+  </header>
+  <main>
+    <form id="formCliente">
+      <input type="text" id="nombre" placeholder="Nombre completo" required />
+      <input type="text" id="telefono" placeholder="Teléfono" required />
+      <button type="submit">Agregar Cliente</button>
+    </form>
+
+    <input type="text" id="buscarCliente" placeholder="Buscar cliente..." />
+
+    <ul id="listaClientes"></ul>
+  </main>
+
+  <script src="js/clientes.js"></script>
+</body>
+</html>
